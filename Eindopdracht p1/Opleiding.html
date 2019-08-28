@@ -1,0 +1,199 @@
+<!-- 
+    Opdracht:       Eindopdracht 
+    Auteur:         Stijn de Baaij
+    Aanmaakdatum:   23-1-2018 16:21
+    Bestandsnaam:   Eindopdracht.html
+-->
+
+<!doctype html>
+<html>
+    <head>
+        <!-- Naam van de Website -->
+        <title>
+            Stijn de Baaij
+        </title>
+        <!-- BESCHRIJVING -->
+        <meta name="description" content="Template HTML voor opdrachten.">
+        <!-- ZOEKWOORDEN -->
+        <meta name="keywords" content="template, html">
+        <!-- INLADEN TEKENSET -->
+        <meta charset="UTF-8">
+        <!-- CSS & JAVASCRIPT BESTANDEN -->
+        <link href="Opleiding.css" rel="stylesheet" type="text/css">
+        <script src="Opleiding.js" defer type="text/javascript"></script>
+    </head>
+    <body>
+        <!-- HEADER MET NAVBAR -->
+        <header>
+            <div class="navbar">
+               <a href="index.html">Home</a>
+                <a href="Werkervaring.html">Werkervaring</a>
+                <a href="Hobbys.html">Hobby's</a>
+                <a href="Opleiding.html">Opleiding</a>
+                <a href="contact.html">contact</a>
+                <a href="cv%20voorbeeld%201.docx" download>Download</a>
+             <!-- DIV VOOR AANMAKEN DROPDOWN-KNOP -->
+                <div class="dropdown">
+                 <button class="dropbtn">Producten
+                 </button>
+                <!-- DIV VOOR INHOUD DROPDOWN -->
+            <div class="dropdown-content">
+                <a href="Eindopdrachtp1.html">Eindopdracht P1</a>
+                <a href="Opdracht4.4.html">Opdracht 4.4</a>
+                <a href="Opdracht%205.2.html">Opdracht 5.2</a>
+                <a href="Opdracht6.1.html">Opdracht 6.1</a>
+                <a href="Opdracht%206.3.html">Opdracht 6.3</a>
+                <a href="Opdracht%207.1.html">Opdracht 7.1</a>
+                <a href="Opdracht%209.2.html">Opdracht 9.2</a>
+                <a href="">Opdracht 10.3</a>
+            </div>
+            </div>
+            </div>
+        </header>
+        <br>
+        <!-- DIV VOOR AANMAKEN "TWEEDE" HEADER -->
+          <div id="header2">
+            <p id="werkervaring">Opleiding</p>
+        </div>
+        <!-- MAIN MET EEN SECTION EN TWEE ARTICLES -->
+        <main>
+            <!-- ARTIKEL VOOR SINT JORISSCHOOL -->
+             <section>
+                <article id="sintjoriss">
+                    <p>
+                        Sint Jorisschool
+                    </p>
+                    <p>
+                        NAW-Gegevens:<br>
+                        Jorismavo<br>Heijendaalseweg 45<br>
+                        6524 SE Nijmegen
+                    </p>
+                    <p id="ervaring">
+                       Met deze school heb ik geen goede ervaring,<br>het is een kleinschalige school,<br>waar vooral leerlingen geplaatst worden met een “rugzakje”.Het betreft hier echter geen Speciaal Onderwijs<br>
+                        Ik kwam er al snel achter dat ik hier niet op de juiste plek was,<br>daarom ben ik uiteindelijk na het tweede jaar van school veranderd.
+ 
+                    </p>
+                    <!-- FOTO VAN DE SCHOOL -->
+                    <img id="sintjoris" src="DSC03597.jpg" align="middle">
+                </article>
+                 <!-- ARTIKEL VOOR MAASWAAL COLLEGE -->
+                 <article id="maaswaalc">
+                     <!-- FOTO VAN DE SCHOOL -->
+                      <img id="maaswaal"src="maaswaal-college-oosterweg.jpg" alt="maaswaal College">
+                    <p id="kop">
+                        Maaswaal College Oosterweg
+                     </p>
+                     <p>
+                        NAW-Gegevens:<br>
+                         Campuslaan<br>
+                         6602 HX Wijchen<br>
+                         Telefoonnummer<br>
+                         (024) 648 72 72
+                    </p>
+                     <p id="onder">
+                       Met deze school heb ik erg goede ervaringen.<br> Op deze school ben ik dan ook met open armen ontvangen,<br>toen ik op zoek was naar een nieuwe school.<br>
+                        Deze school heeft mij alle kansen en mogelijkheden gegeven,<br>die ik op mijn “oude” school nooit gekregen heb. Dat miste ik daar dan ook enorm.
+ 
+                    </p>
+                     
+                 </article>
+            </section>
+            <!-- SECTION MET TABEL VOOR LOOPBAAN OPLEIDINGEN -->
+            <section>
+                <table id="opleiding">
+                    <tr>
+                    <th>Jaar</th>
+                    <th>Opleiding</th>
+                    <th>School</th>
+                    <th>Plaats</th>
+                    </tr>
+                    <tr>
+                        <td>2013-2014</td>
+                        <td>VMBO-T</td>
+                        <td>Sint Jorisschool</td>
+                        <td>Nijmegen</td>
+                    </tr>
+                    <tr>
+                        <td>2015-2016</td>
+                        <td>VMBO-T</td>
+                        <td>Maaswaal College</td>
+                        <td>Wijchen</td>
+                    </tr>
+                    <tr>
+                        <td>2017-Heden</td>
+                        <td>Applicatie-Mediaontwikkelaar</td>
+                        <td>Koning Willem I College</td>
+                        <td>'s-Hertogenbosch</td>
+                    </tr>
+                </table>
+            </section>
+            <br>
+            <br>
+            <br>
+            <!-- TABLE VOOR VAKKEN -->
+                <table>
+                    <tr id="vakken">
+                        <td class="vakken">
+                            <button onclick="showCijferhtml()" type="button">
+                                HTML/CSS
+                            </button>
+                        </td>
+                        <td class="vakken">
+                            <button onclick="showCijferjava()" type="button">
+                                Javascript 
+                            </button>
+                        </td>
+                        <td class="vakken">
+                            <button onclick="showCijferhard()" type="button">
+                                Hardware
+                            </button>
+                        </td>
+                        <td class="vakken">
+                            <button onclick="showCijferusa()" type="button">
+                                Usability
+                            </button>
+                        </td>
+                        <td class="vakken">
+                            <button onclick="showCijfercom()" type="button">
+                                Computertekenen
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            <!-- TABLE VOOR CIJFERS -->
+            <table id="school">
+                <tr id="cijfers">
+                    <td id="punt1">
+                        <span id="cijfer1">
+                            0
+                        </span>
+                    </td>
+                    <td id="punt2">
+                        <span id="cijfer2">
+                            0
+                        </span>
+                    </td>
+                    <td id="punt3">
+                        <span id="cijfer3">
+                            0
+                        </span>
+                    </td>
+                    <td id="punt4">
+                        <span id="cijfer4">
+                            0
+                        </span>
+                    </td>
+                    <td id="punt5">
+                        <span id="cijfer5">
+                            0
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <!-- FOOTER -->
+         <div id="footer">
+            &#9400; Stijn de Baaij
+        </div>
+    </body>
+</html>

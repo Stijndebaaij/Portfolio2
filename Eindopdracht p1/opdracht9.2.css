@@ -1,0 +1,240 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background:#0652DD;
+}
+header
+{
+    width:100%;
+    height:40px;
+    background:#0652DD;
+    position: fixed;
+}
+.navbar
+{
+    overflow: hidden;
+    background:#0652DD;
+    border: 4px solid white;
+    font-family: Arial;
+    
+}
+#header2
+{
+    background-color:#1B1464;
+    text-align: center;
+    height:150px;
+    border: 4px solid white;
+}.navbar a
+{
+    float:left;
+    font-size: 14px;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width:10%;
+    margin-left:40px;
+    
+}
+.dropdown
+{
+    float: left;
+    overflow: hidden;
+    margin-left:50px;
+}
+.dropdown .dropbtn
+{
+    font-size: 14px;
+    border: none;
+    color: white;
+    background-color:inherit;
+    font: inherit;
+    padding-top:13px;
+    
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background:#1B1464;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background:#0652DD;
+    color:white;
+    right:10;
+    border:4px solid white;
+    width:100;
+    z-index: 10;
+    
+}
+.dropdown-content a
+{
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-left:0;
+}
+.dropdown-content a:hover{
+    background: #1B1464;
+    color:white;
+    width:100px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    font-family: Arial;
+    font-size: 14px;
+   float:left;
+    width:5%;
+    height:30px;
+    padding-top:10px;
+    margin-top:0px;
+    text-align: center;
+    margin-left: 80px;
+    background:black;
+    color: white;
+    
+}
+a
+{
+    text-decoration: none;
+    color:white;
+}
+#werkervaring
+{
+    padding-top:40px;
+    color:white;
+    text-align: center;
+    font-size:30px;
+    font-family: Arial;
+    
+}
+img
+{
+    width:600px;
+    height: 400px;
+    margin-left:50px;
+    margin-top:50px;
+}
+article
+{
+    background:#1B1464;
+    color:white;
+    margin-top:-450px;
+    width:300px;
+    border: 4px solid white;
+    margin-left:63%;
+}
+
+#tekst2
+{
+    background:#1B1464;
+    color:white;
+    margin-top:20px;
+    width:400px;
+    height: 250px;
+    border: 4px solid white;
+    margin-left:60%;
+}
+#download
+    {
+    background:#1B1464;
+    margin-left: 70%;
+    color: white;
+    border: 4px solid white;
+    font-family: Arial;
+    font-size: 14px;
+    margin-top:10px;
+    width:120px;
+    text-align: center;
+}
+#footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:40px;
+    background-color: #1B1464;
+    border: 4px solid white;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding-top: 20px;
+}
+@media only screen and (orientation: portrait) and (min-device-width: 375px) and (max-device-width: 667px)
+{
+    #header2
+    {
+        width:120%;
+        height:150px;
+    }
+    #werkervaring
+    {
+        margin-left:200px;
+        margin-top:30px;
+    }
+    .navbar 
+    {
+        width:15%;
+    }
+    img
+    {
+        margin-left: 400px;
+    }
+    article
+    {
+        margin-top:50px;
+        margin-left:550px;
+    }
+    #tekst2
+    {
+        margin-left:500px;
+    }
+    #download
+    {
+        margin-left:650px;
+    }
+}
+@media only screen and (orientation: landscape) and (min-device-width:375px) and (max-device-width: 667px)
+{
+    img
+    {
+        width:400px;
+        height:300px;
+        margin-top:30px;
+    }
+    article
+    {
+        margin-top:-320px;
+        margin-left:640px;
+    }
+    #tekst2
+    {
+        height:250px;
+        margin-top:20px;
+    }
+    #download
+    {
+        margin-left:180px;
+        margin-top:-70px;
+    }
+    .navbar a
+    {
+        width:7%;
+    }
+    #header2
+    {
+        width:120%;
+    }
+}
